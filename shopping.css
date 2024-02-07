@@ -1,0 +1,239 @@
+
+body{
+  margin: 0;
+}
+*{
+  transition: a 0.51s ease;
+}
+button{cursor: pointer;}
+.nav{
+  background-color: rgb(18, 8, 19);
+  height: 5vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+.right{
+  margin-left: auto;
+}
+.nav button{
+  border: none;
+  color: white;
+  background-color: rgb(18, 8, 19);
+  cursor: pointer;
+  
+}
+.nav2{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: relative;
+  z-index: 10;
+  width: 90vw;
+}
+.nav2 {
+display: flex;
+}
+.nav2 .list{
+  margin-left: auto;
+}
+.nav2 a{
+  margin-left: 2vw;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.hero{
+  background-image: url('bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 42vh;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: color-burn;
+  padding: 20vh 10vh;
+  font-size: larger;
+  font-weight: bold;
+}
+.hero button{
+  background-color: black;
+  color: white;
+  padding: 1vw 2vw;
+  border: none;
+  cursor: pointer;
+}
+.hero button:hover{
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.shop{
+  padding: 10vh 20vh;
+  display: flex;
+  
+}
+.shop img{
+  width: 20vw;
+  height: 40vh;
+  margin-right: 5vw;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(115, 113, 113);
+  cursor: pointer;
+  position: relative;
+}
+.shop img:hover{
+  opacity: 0.5;
+  background-color: black;
+  
+}
+
+.sales .s1{
+  display: flex;
+}
+.sales .s1 .i1{
+  margin-right: 5vw;
+}
+.sale{
+  margin: 2vh 15vh;
+  background-color: rgba(255, 47, 117,0.03);
+}
+.sales .s1 .i1 button{
+  color: white;
+  background-color: rgb(255, 47, 117);
+  border: none;
+  padding: 1.2vh 2vh;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 2px white;
+}
+.sales .s1 .i1 button:hover{
+  color: rgb(255, 47, 117);
+  background-color: white;
+  font-weight: 780;
+  border: solid 2px black;
+}
+.sales img{
+  width: 17.35vw;
+  height: 32vh;
+}
+
+.sales{
+  margin: 10vh 0vh;
+  
+}
+.n1 img{
+  width: 20vw;
+  height: 25vh;
+}
+.n1{
+  position: relative;
+ margin: 2vw 4vw;
+ margin-bottom: 30vh;
+}
+.news{
+  display: flex;
+  padding: 0vw 10vw;
+}
+.n1 .n11{
+  position: absolute;
+  bottom: -65%;
+  left: 1.5vw;
+  padding: 1vw 2vw;
+  background-color: white;
+  width: 13vw;
+  text-align: center;
+}
+.n11 .date{
+
+}
+  
+.n11 .para{
+  font-weight: bold;
+}
+.n11 .btn{
+  color: rgb(255, 47, 117);
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-bottom: 0.2vw solid rgb(255, 47, 117);
+  padding-bottom: 1vh;
+  background: transparent;
+  cursor: pointer;
+  width: 12vw;
+}
+.n11 .btn:hover{
+  color: black;
+  border-bottom: 0px;
+  transition: border-bottom 15s linear;
+}
+
+.leftinfo{
+  max-width: 30vw;
+  margin: 3vw 15vw;
+  margin-right: 5vw;
+  float: left;
+}
+.rightinfo{
+ margin: 0vw 5vw;
+}
+.rightinfo input{
+  padding: 2vh;
+  margin-right: 2vw;
+  margin-bottom: 5vh;
+  margin-top: 12vh;
+}
+.rightinfo button{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 2vh 5vh;
+  margin-bottom: 15vh;
+}
+.rightinfo textarea{
+  margin-bottom: 5vh;
+  padding: 2vh;
+  display: block;
+}
+.footer{
+  display: flex;
+  background-color: rgba(255, 47, 117,80%);
+  color: white;
+  padding: 3vw 8vw;
+}
+.c1{
+  max-width: 20vw;
+  margin-right: 8vw;
+}
+.c1 a{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2vh;
+  font-weight: bold;
+  color: white;
+
+}
+.mail{
+  border: none;
+  border-bottom: 1px solid white;
+  width: 20vw;
+  background: transparent;
+}
+.mail:placeholder-shown{
+  font-weight: bold;
+}
+.rule{
+  width: 80vw;
+}
+.foot{
+  background-color: rgb(255, 47, 117);
+  color: white;
+  padding-bottom: 2vh;
+}
+
+
